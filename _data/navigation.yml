@@ -1,4 +1,7 @@
 nav:
+  - title: "About Us"
+    section: aboutus
+
   - title: "Join Us"
     section: joinus
 
