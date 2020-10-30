@@ -11,13 +11,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
+theme: jekyll-agency
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/canterbury-soccer" # the subpath of your site, e.g. /blog
 
-title      : Cnaterbury Soccer Club
+title      : Canterbury Soccer Club
 email      : canterburysoccer@gmail.com #this is also the email contact forms will go to
 description: "The Canterbury Soccer Club has been operating in Ottawa, Canada for 41 years to provide non-competitive recreational soccer to youth between the ages of 5 and 12 years old in the Canterbury and Alta Vista community of Ottawa. The club's goal is to ensure that our youth HAVE FUN while all getting an equal opportunity to play the game."
 author     : Chris Cooper
@@ -32,6 +31,3 @@ collections:
   portfolio:
 
 markdown: kramdown
-
-plugins:
-  - jekyll-remote-theme

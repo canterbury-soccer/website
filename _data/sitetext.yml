@@ -1,7 +1,7 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Volunteer-led, non-competitive recreational soccer for youth between the ages of 5 and 12 years old in the Canterbury and Alta Vista community of Ottawa.
+    text: Join the team!
+    button: Volunteer to help
     buttonlink: "#services" # "#{section}" or "URL/page link"
 
 services:
