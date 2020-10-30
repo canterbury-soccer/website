@@ -1,18 +1,18 @@
 nav:
-  - title: "Services"
-    section: services
+  - title: "Join Us"
+    section: joinus
 
-  - title: "Portfolio"
-    section: portfolio
+  - title: "Kids"
+    section: kids
     
-  - title: "About"
-    section: timeline
+  - title: "Coaches"
+    section: coaches
 
-  - title: "Team"
-    section: team
+  - title: "Parents"
+    section: parents
 
-  - title: "Contact"
-    section: contact
+  - title: "Schedule"
+    section: schedule
 
-  - title: "Theme Source"
-    url: https://github.com/raviriley/agency-jekyll-theme/
+  - title: "Map"
+    section: map
