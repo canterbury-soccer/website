@@ -15,12 +15,12 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+baseurl: "/canterbury-soccer" # the subpath of your site, e.g. /blog
 
-title      : Agency Jekyll Theme Demo
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
-author     : Your Name
+title      : Cnaterbury Soccer Club
+email      : canterburysoccer@gmail.com #this is also the email contact forms will go to
+description: "The Canterbury Soccer Club has been operating in Ottawa, Canada for 41 years to provide non-competitive recreational soccer to youth between the ages of 5 and 12 years old in the Canterbury and Alta Vista community of Ottawa. The club's goal is to ensure that our youth HAVE FUN while all getting an equal opportunity to play the game."
+author     : Chris Cooper
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
