@@ -1,0 +1,9 @@
+<div class="action-button align-middle text-uppercase">
+<a href="{{ site.data.sitetext.registration.in.url }}">
+{% if site.data.sitetext.registration.open == "true" %}
+{{ site.data.sitetext.registration.internal.title }}
+{% else %}
+{{ site.data.sitetext.registration.closed.title }}
+{% endif %}
+</a>
+</div>

@@ -7,6 +7,7 @@
 
 // Custom colors
 $primary: {{ site.data.style.highlight | default: "#fbb03b" }} !default;
+$secondary: {{ site.data.style.secondary | default: "#3ac0df" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
@@ -16,6 +17,7 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Global CSS
 @import "base/page.scss";
+@import "base/webfonts.scss";
 
 // Components
 @import "components/buttons.scss";
