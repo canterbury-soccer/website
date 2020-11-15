@@ -152,6 +152,18 @@ schedule:
 #        title: "Example 1"
 #      - title: "Example 2 with no link"
 
+map:
+  title: "Where to find us"
+  img: assets/img/soccer_map.jpg
+  img_alt: Soccer ball location pin
+  text: "Swing by to watch a game, cheer on a friend or take part – if you like what you see, sign up to play or join us as a volunteer!"
+  location:
+    title: "Location"
+    text:
+  fieldmap:
+    title: "Field Map"
+    img: assets/img/field_map.png
+    img_alt: Field Map
 
 contact:
     title: "Contact Us"
