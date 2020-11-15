@@ -22,10 +22,11 @@ aboutus:
 twitter:
     title: "Twitter"
     text: "Stay up to date on events, news, weather and games by following us on Twitter!"
+    url: https://twitter.com/CanterburySoccr
     section: twitter
 
 kids:
-    title: "Kid's Corner"
+    title: "Kids Corner"
     img: assets/img/saurus_keeper.jpg
     img_alt: Soccersaurus Keeper
     text: |
@@ -112,6 +113,45 @@ parents:
     title: "Parent's Conduct"
     text: "At the CSC we like to play soccer and have fun! Because we work with children, we take their safety very seriously. Please take the time to read about the parents code of conduct below. These are pointers to make sure everyone has a good time!"
     contact: "If you have any questions, please read below, or feel free to contact us at <a href='mailto:canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>."
+
+schedule:
+  title: "What's Happening?"
+  img: assets/img/saurus_question.jpg
+  img_alt: Soccersaurus has questions.
+  text: "There’s always a lot happening in the Canterbury Soccer Club. Stay up to date by following us on Twitter, or check back regularly for our event updates below!"
+  gametimes:
+    title: "Game Times"
+    text: "Canterbury Soccer Club meets every week for training and games! Here are the times:"
+  schedules:
+    title: "2019 Schedules"
+    year: 2019
+    text: ""
+  divisions:
+    - title: "Minitykes"
+      schedule: "Mondays and Wednesdays, 5:30-6:30 pm"
+      url: assets/pdf/schedule_2019_minitykes.pdf
+    - title: "Tykes"
+      schedule: "Mondays and Wednesdays, 6:30-7:30 pm"
+      url: assets/pdf/schedule_2019_tykes.pdf
+    - title: "Atoms"
+      schedule: "Mondays and Wednesdays, 6:30-7:30 pm"
+      url: assets/pdf/schedule_2019_atoms.pdf
+    - title: "Mosquitos"
+      schedule: "Tuesdays and Thursdays, 6:30-8:15 pm"
+      url: assets/pdf/schedule_2019_mosquitos.pdf
+  fieldmaps:
+    title: "Field Maps"
+    link:
+      url: map.html
+      title: "Link to Field Maps"
+  upcoming:
+    title: "Upcoming Events"
+#    text:
+#    events:
+#      - url: example2.html
+#        title: "Example 1"
+#      - title: "Example 2 with no link"
+
 
 contact:
     title: "Contact Us"
