@@ -96,6 +96,23 @@ coaches:
     title: "Colour me in!"
     text: "Looking to give your kids something to do between practices? Take a look at our colouring pages!"
 
+parents:
+  title: "Parents Corner"
+  text: |
+    The Canterbury Soccer Club has been providing non-competitive, developmental, recreational spring soccer programs for youth in the Alta Vista area for over 40 years. We typically have over 300 children registered who enjoy the spring evenings, have lots of fun and get tons of exercise!
+    <br/><br/>
+    The Canterbury Soccer Club is run entirely by volunteers. Over 70 volunteer coaches, assistant coaches, equipment managers, division convenors and executive members give generously of their time to ensure that all the children have an opportunity to explore the Beautiful Game of soccer every year.
+    <br/><br/>
+    We always need volunteers, and train anyone who wants to help, so please let us know if you want to help your community.
+    <br/><br/>
+    <b>Canterbury Soccer: Community Made, Community Played.</b>
+  img: assets/img/saurus_parent.jpg
+  img_alt: Soccersaurus Parent
+  conduct:
+    title: "Parent's Conduct"
+    text: "At the CSC we like to play soccer and have fun! Because we work with children, we take their safety very seriously. Please take the time to read about the parents code of conduct below. These are pointers to make sure everyone has a good time!"
+    contact: "If you have any questions, please read below, or feel free to contact us at <a href='mailto:canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>."
+
 contact:
     title: "Contact Us"
     text: "Email us at canterburysoccer@gmail.com"
