@@ -2,8 +2,11 @@ nav:
   - title: "About Us"
     section: aboutus
 
-  - title: "Join Us"
+  - title: "Sign Up"
     url: join-us.html
+
+  - title: "Volunteer"
+    url: volunteer.html
 
   - title: "Kids"
     url: kids.html
