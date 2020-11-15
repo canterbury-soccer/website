@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Kid's Corner
+title: Kids Corner
 ---
 <section class="page-section" id="{{ site.data.sitetext.kids.section | default: "kids" }}">
   <div class="container">
 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="page-header text-uppercase">{{ site.data.sitetext.kids.title | default: "Kid's Corner" }}</h1>
+        <h1 class="page-header text-uppercase">{{ site.data.sitetext.kids.title | default: "Kids Corner" }}</h1>
       </div>
     </div>
     <div class="row justify-content-center">
