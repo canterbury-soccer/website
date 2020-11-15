@@ -29,8 +29,17 @@ h6 {
   @include heading-font;
 }
 
+.left {
+  text-align: left;
+}
+
 .page-section {
   padding: 100px 0;
+  h1.page-header {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -40,7 +49,7 @@ h6 {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     text-transform: none;
     @include serif-font;
   }
@@ -52,6 +61,8 @@ h6 {
 }
 
 .dropshadow { text-shadow: 0 0 6px black; }
+
+.highlightshadow { text-shadow: 2px 2px 4px $primary; }
 
 // Highlight color customization
 ::-moz-selection {
@@ -72,4 +83,25 @@ img::-moz-selection {
   background: transparent;
 }
 
+hr {
+  background: $primary;
+  color: $primary;
+  width: 50%;
+}
 
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%
+}
+
+.col-4 {
+    width: 25%;
+}
+
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+}

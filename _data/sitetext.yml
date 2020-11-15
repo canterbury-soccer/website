@@ -2,7 +2,7 @@ header:
     title: Volunteer-led, non-competitive recreational soccer for youth between the ages of 5 and 12 years old in the Canterbury and Alta Vista community of Ottawa.
     text: Come play with us!
     button: Sign up
-    buttonlink: "#services" # "#{section}" or "URL/page link"
+    buttonlink: joinus.html # "#{section}" or "URL/page link"
 
 aboutus:
     title: "About Us"
@@ -19,103 +19,83 @@ aboutus:
         desc: "Our soccer season is in the Spring and normally runs from Mid-May to the end of June in a given year. Two games are scheduled for each team in the evenings from Monday to Thursday every week of the season. The games are played in our community on fields located at [St. Gemma (McMaster) school](https://www.google.ca/maps/place/McMaster+Catholic+School/@45.386711,-75.646857,17z/data=!4m2!3m1!1s0x4cce0f4f82d288ad:0x2d602d5eef7102da)."
         icon: fas fa-calendar-alt
 
-portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    
+twitter:
+    title: "Twitter"
+    text: "Stay up to date on events, news, weather and games by following us on Twitter!"
+    section: twitter
 
-timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
-    section: timeline
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
-        align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+kids:
+    title: "Kid's Corner"
+    img: assets/img/saurus_keeper.jpg
+    img_alt: Soccersaurus Keeper
+    text: |
+      There are many tips and tricks that you can learn to do when playing soccer. Learning these skills can help give you the upper hand in a competitive soccer match.<br/><br/>The videos below have simple step by step instructions to help you become a soccer master!
+    conduct: 
+      img: assets/img/saurus_toothy.jpg
+      img_alt: Toothy Soccersaurus
+      title: "Player's Code of Conduct"
+      pledge: "I promise to:"
+      promises:
+        - text: "Have fun!"
+        - text: "Listen and learn!"
+        - text: "Do my best!"
+        - text: "Be kind to other players!"
+        - text: "Be respectful of my coach, other coaches, people watching, and referees!"
+    colour:
+      title: "Colour me in!"
+      text: "Click on the image above to download a Soccersaurus colouring book."
+      url: assets/pdf/colouring-book.pdf
+      img: assets/img/saurus_colour_me.jpg
+      img_alt: Black and white Soccersaurus
+    videos:
+      - title: "Fake Turn"
+        url: https://www.youtube.com/embed/sizB-is5wO8
+      - title: "First Touch"
+        url: https://www.youtube.com/embed/vfEHni8GE2k
+      - title: "Shooting"
+        url: https://www.youtube.com/embed/Xhp-8sncxQU
+    links:
+      - url: assets/pdf/skills-drills.pdf
+        title: "Skills & Drills"
+      - url: assets/pdf/simplified-rules.pdf
+        title: "Simplified Rules"
+      - url: https://www.cbc.ca/kids/games/play/soccer-hero
+        title: "CBC Soccer Hero (game)"
+      - url: https://www.cbc.ca/kids/games/play/soccer-pro
+        title: "CBC Soccer Pro (game)"
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
+coaches:
+  title: "Coaches Corner"
+  text: |
+    As a coach for Canterbury Soccer Club, you are an important member of our team! Without volunteer coaches, we wouldn't be able to make this happen. But don’t worry, you don’t have to be a pro to be a volunteer!<br/><br/>Below are some videos you can watch that show basic training and rules for soccer. If you’re unsure about something or a little rusty after the off-season, simply watch a few videos to brush up on your skills!
+  img: assets/img/saurus_hug.jpg
+  img_alt: Soccersaurus Hug
+  conduct:
+    title: "Coach's Conduct"
+    text: "At the CSC we like to play soccer and have fun! Because we work with children, we take their safety very seriously. Please take the time to read about the coach's code of conduct:"
+    link: 
+      url: assets/pdf/code-of-conduct.pdf
+      title: "Coach's Code of Conduct"
+    skills: 
+      text: "Don't forget to look at how we teach different skills at different levels! Download the PDFs below and check it out!"
+      links:
+        - url: assets/pdf/soccer_coaching_manual.pdf
+          title: "Coaching Manual"
+        - url: assets/pdf/skills-drills.pdf
+          title: "Skills & Drills"
+        - url: assets/pdf/simplified-rules.pdf
+          title: "Simplified Rules"
+  videos:
+    - title: "Basic Rules and Positions"
+      url: https://www.youtube.com/embed/JT6FPmKHUdo
+    - title: "How to Coach Soccer"
+      url: https://www.youtube.com/embed/ovJZz82AAz4
+    - title: "Passing & Receiving"
+      url: https://www.youtube.com/embed/tWmoIbznHac
+  extra:
+    title: "Colour me in!"
+    text: "Looking to give your kids something to do between practices? Take a look at our colouring pages!"
 
-clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-    
-team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/3.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-          
 contact:
     title: "Contact Us"
     text: "Email us at canterburysoccer@gmail.com"

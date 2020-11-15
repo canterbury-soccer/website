@@ -3,19 +3,19 @@ nav:
     section: aboutus
 
   - title: "Join Us"
-    section: joinus
+    url: joinus.html
 
   - title: "Kids"
-    section: kids
+    url: kids.html
     
   - title: "Coaches"
-    section: coaches
+    url: coaches.html
 
   - title: "Parents"
-    section: parents
+    url: parents.html
 
   - title: "Schedule"
-    section: schedule
+    url: schedule.html
 
   - title: "Map"
-    section: map
+    url: map.html
