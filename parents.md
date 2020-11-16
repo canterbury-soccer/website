@@ -16,7 +16,7 @@ title: Parents Corner
           <img src="{{ site.data.sitetext.parents.img }}" alt="{{ site.data.sitetext.parents.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-8">    
+      <div class="col-12">    
         {% if site.data.sitetext.parents.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.parents.text }}</h3>
         {% endif %}

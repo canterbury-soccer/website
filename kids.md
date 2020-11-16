@@ -14,7 +14,7 @@ title: Kids Corner
           <img src="{{ site.data.sitetext.kids.img }}" alt="{{ site.data.sitetext.kids.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-6">    
+      <div class="col-10">    
         {% if site.data.sitetext.kids.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.kids.text }}</h3>
         {% endif %}

@@ -16,7 +16,7 @@ title: Schedule
           <img src="{{ site.data.sitetext.schedule.img }}" alt="{{ site.data.sitetext.schedule.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-8">    
+      <div class="col-12">    
         {% if site.data.sitetext.schedule.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.schedule.text }}</h3>
         {% endif %}
@@ -32,7 +32,7 @@ title: Schedule
       </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-12">
           <p class="text-muted left">{{ site.data.sitetext.schedule.gametimes.text }}</p>
           {% for division in site.data.sitetext.divisions %}
           <p><b>{{ division.title }}</b>: {{ division.schedule }}</p>
@@ -48,7 +48,7 @@ title: Schedule
       </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-12">
           <p class="text-muted left">{{ site.data.sitetext.schedule.schedules.text }}</p>
           <ul class="left">
           {% for division in site.data.sitetext.divisions %}
@@ -75,7 +75,7 @@ title: Schedule
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-4 text-center">
+      <div class="col-12 text-center">
         {% if site.data.sitetext.schedule.upcoming.events > 0 %}
         <ul class="left">
         {% for event in site.data.sitetext.schedule.upcoming.events %}

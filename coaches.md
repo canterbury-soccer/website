@@ -14,7 +14,7 @@ title: Coaches Corner
           <img src="{{ site.data.sitetext.coaches.img }}" alt="{{ site.data.sitetext.coaches.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-6">    
+      <div class="col-10">    
         {% if site.data.sitetext.coaches.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.coaches.text }}</h3>
         {% endif %}
@@ -29,7 +29,7 @@ title: Coaches Corner
       </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-12">
           <p class="text-muted left">{{ site.data.sitetext.coaches.conduct.text }}</p>
           <ul class="left">
             <li><a href="{{ site.data.sitetext.coaches.conduct.link.url }}" target="_blank">{{ site.data.sitetext.coaches.conduct.link.title }}</a></li>

@@ -16,7 +16,7 @@ title: Volunteer
           <img src="{{ site.data.sitetext.volunteer .img }}" alt="{{ site.data.sitetext.volunteer.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-6">    
+      <div class="col-10">    
         {% if site.data.sitetext.volunteer.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.volunteer.text }}</h3>
         {% endif %}
@@ -32,13 +32,13 @@ title: Volunteer
       </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-8 left">
+        <div class="col-12 left">
         {% include volunteer_positions.html %}
         </div>
     </div>
 
     <div class="row justify-content-center">
-        <div class="col-8 text-center">
+        <div class="col-12 text-center">
         {% include volunteer_external_link.html %}
         {{ site.data.sitetext.volunteer.final-appeal }}
         </div>

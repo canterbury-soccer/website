@@ -14,7 +14,7 @@ title: Join Us
           <img src="{{ site.data.sitetext.join-us.img }}" alt="{{ site.data.sitetext.join-us.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-6">    
+      <div class="col-10">    
         {% if site.data.sitetext.join-us.registration_slug %}
         <h3 class="highlightshadow">{{ site.data.sitetext.join-us.registration_slug }}</h3>
         <br/>
@@ -46,12 +46,12 @@ title: Join Us
           </figure>
           <span class="text-uppercase"><b>{{ division.title }}</b></span>
         </div>
-        <div class="col-4 left">
+        <div class="col-5 left">
         <p><b>{{ division.title }} ({{ division.years }})</b></p>
         <p>{{ division.tagline }}</p>
         <p>{{ division.schedule }}</p>
         </div>
-        <div class="col-4">
+        <div class="col-5">
           {% include register_external_link.html %}
         </div>
     </div>
