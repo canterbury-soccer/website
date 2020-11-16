@@ -5,11 +5,9 @@ title: Kids Corner
 <section class="page-section" id="{{ site.data.sitetext.kids.section | default: "kids" }}">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="page-header text-uppercase">{{ site.data.sitetext.kids.title | default: "Kids Corner" }}</h1>
-      </div>
-    </div>
+    {% capture title %}{{ site.data.sitetext.kids.title }}{% endcapture %}
+    {% include page_title.html title=title %}
+
     <div class="row justify-content-center">
       <div class="col-2">
         <figure>

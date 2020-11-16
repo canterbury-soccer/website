@@ -7,7 +7,7 @@ title: Location & Field Map
 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="page-header text-uppercase">{{ site.data.sitetext.map.title | default: "Map" }}</h1>
+        <h2 class="section-heading text-uppercase highlightshadow">{{ site.data.sitetext.map.title | default: "Map" }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">

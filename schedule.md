@@ -7,7 +7,7 @@ title: Schedule
 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="page-header text-uppercase">{{ site.data.sitetext.schedule.title | default: "Schedule" }}</h1>
+        <h2 class="section-heading text-uppercase highlightshadow">{{ site.data.sitetext.schedule.title | default: "Schedule" }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">

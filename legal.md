@@ -2,14 +2,26 @@
 layout: page
 title: Privacy Policy
 ---
-<div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
-</div>
+<section class="page-section" id="{{ site.data.sitetext.coaches.section | default: "coaches" }}">
+  <div class="container">
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+    {% include page_title.html title="Privacy Policy" %}
 
-**PERSONAL INFORMATION WE COLLECT**
+    <div class="row justify-content-center">
+      <div class="col-2">
+        <h3 class="section-subheading text-muted">This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).</h3>
+      </div>
+    </div>
 
+    <hr/>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Personal information we collect</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-12 left">
 {% if site.analytics.google %}
 
 Automatically Collected (Google Analytics):
@@ -27,11 +39,31 @@ You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaopt
 We do not collect any data about you or use any cookies.
 
 {% endif %}
+      </div>
+    </div>
 
-**CHANGES**
+    <hr/>
 
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Changes</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-12 left">
 We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
+      </div>
+    </div>
 
-**CONTACT US**
+    <hr/>
 
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Contact us</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-12 left">
 For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+      </div>
+    </div>

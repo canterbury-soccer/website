@@ -5,11 +5,9 @@ title: Join Us
 <section class="page-section" id="{{ site.data.sitetext.join-us.section | default: "join-us" }}">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="page-header text-uppercase">{{ site.data.sitetext.join-us.title | default: "Join Us" }}</h1>
-      </div>
-    </div>
+    {% capture title %}{{ site.data.sitetext.join-us.title }}{% endcapture %}
+    {% include page_title.html title=title %}
+
     <div class="row justify-content-center">
       <div class="col-2">
         <figure>

@@ -7,7 +7,7 @@ title: Parents Corner
 
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="page-header text-uppercase">{{ site.data.sitetext.parents.title | default: "Parents Corner" }}</h1>
+        <h2 class="section-heading text-uppercase highlightshadow">{{ site.data.sitetext.parents.title | default: "Parents Corner" }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">
