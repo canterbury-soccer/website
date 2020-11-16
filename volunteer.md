@@ -5,11 +5,9 @@ title: Volunteer
 <section class="page-section" id="{{ site.data.sitetext.volunteer.section | default: "volunteer" }}">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase highlightshadow">{{ site.data.sitetext.volunteer.title | default: "Volunteer" }}</h2>
-      </div>
-    </div>
+    {% capture title %}{{ site.data.sitetext.volunteer.title }}{% endcapture %}
+    {% include page_title.html title=title %}
+
     <div class="row justify-content-center">
       <div class="col-2">
         <figure>

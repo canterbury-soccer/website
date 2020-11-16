@@ -5,18 +5,16 @@ title: Location & Field Map
 <section class="page-section" id="{{ site.data.sitetext.map.section | default: "map" }}">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase highlightshadow">{{ site.data.sitetext.map.title | default: "Map" }}</h2>
-      </div>
-    </div>
+    {% capture title %}{{ site.data.sitetext.map.title }}{% endcapture %}
+    {% include page_title.html title=title %}
+
     <div class="row justify-content-center">
       <div class="col-2">
         <figure>
           <img src="{{ site.data.sitetext.map.img }}" alt="{{ site.data.sitetext.map.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-12">    
+      <div class="col-10">    
         {% if site.data.sitetext.map.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.map.text }}</h3>
         {% endif %}

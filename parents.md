@@ -5,18 +5,16 @@ title: Parents Corner
 <section class="page-section" id="{{ site.data.sitetext.parents.section | default: "parents" }}">
   <div class="container">
 
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase highlightshadow">{{ site.data.sitetext.parents.title | default: "Parents Corner" }}</h2>
-      </div>
-    </div>
+    {% capture title %}{{ site.data.sitetext.parents.title }}{% endcapture %}
+    {% include page_title.html title=title %}
+
     <div class="row justify-content-center">
       <div class="col-2">
         <figure>
           <img src="{{ site.data.sitetext.parents.img }}" alt="{{ site.data.sitetext.parents.img_alt }}"/>
         </figure>
       </div>
-      <div class="col-12">    
+      <div class="col-10">    
         {% if site.data.sitetext.parents.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.parents.text }}</h3>
         {% endif %}
