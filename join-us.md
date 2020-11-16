@@ -61,5 +61,5 @@ title: Join Us
     <hr/>
 
     {% endfor %}  
-</div>
+  </div>
 </section>
