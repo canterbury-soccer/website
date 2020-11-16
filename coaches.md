@@ -72,7 +72,7 @@ title: Coaches Corner
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.coaches.extra.title | default: "Colour me in!" }}</h2>
-        <a href="{{ site.data.sitetext.kids.colour.url }}" target="_blank"><img src="{{ site.data.sitetext.kids.colour.img }}" alt="{{ site.data.sitetext.kids.colour.img_alt }}"/></a>
+        <a href="{{ site.data.sitetext.kids.colour.url }}" target="_blank"><img class="col-8" src="{{ site.data.sitetext.kids.colour.img }}" alt="{{ site.data.sitetext.kids.colour.img_alt }}"/></a>
         {% if site.data.sitetext.coaches.extra.text %}
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.coaches.extra.text }}</h3>
         {% endif %}
