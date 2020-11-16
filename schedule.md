@@ -34,7 +34,7 @@ title: Schedule
     <div class="row justify-content-center">
         <div class="col-6">
           <p class="text-muted left">{{ site.data.sitetext.schedule.gametimes.text }}</p>
-          {% for division in site.data.sitetext.schedule.divisions %}
+          {% for division in site.data.sitetext.divisions %}
           <p><b>{{ division.title }}</b>: {{ division.schedule }}</p>
           {% endfor %}
         </div>
@@ -51,7 +51,7 @@ title: Schedule
         <div class="col-6">
           <p class="text-muted left">{{ site.data.sitetext.schedule.schedules.text }}</p>
           <ul class="left">
-          {% for division in site.data.sitetext.schedule.divisions %}  
+          {% for division in site.data.sitetext.divisions %}
             <li><a href="{{ division.url }}" target="_blank">{{ division.title }} - {{ site.data.sitetext.schedule.schedules.year }}</a></li>
           {% endfor %}
           </ul>
@@ -75,7 +75,8 @@ title: Schedule
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-4">
+      <div class="col-4 text-center">
+        {% if site.data.sitetext.schedule.upcoming.events > 0 %}
         <ul class="left">
         {% for event in site.data.sitetext.schedule.upcoming.events %}
           {% if event.url %}
@@ -85,6 +86,9 @@ title: Schedule
           {% endif %}
         {% endfor %}
         </ul>
+        {% else %}
+        No events scheduled
+        {% endif %}
       </div>
     </div>
 
