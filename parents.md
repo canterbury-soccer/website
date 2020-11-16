@@ -31,7 +31,7 @@ title: Parents Corner
       </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-12">
           <p class="text-muted left">{{ site.data.sitetext.parents.conduct.text }}</p>
           {% include parents/code_of_conduct.html %}
           <p class="text-muted left">{{ site.data.sitetext.parents.conduct.contact }}</p>
@@ -46,7 +46,7 @@ title: Parents Corner
       </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-12">
           {% include parents/faq.html %}
         </div>
     </div>
