@@ -34,7 +34,7 @@ title: Kids Corner
             <img src="{{ site.data.sitetext.kids.conduct.img }}" alt="{{ site.data.sitetext.kids.conduct.img_alt }}"/>
           </figure>
         </div>
-        <div class="col-4">
+        <div class="col-10">
           <p class="text-muted left">{{ site.data.sitetext.kids.conduct.pledge | default: "I promise to:" }}</p>
           <ul class="left">
           {% for promise in site.data.sitetext.kids.conduct.promises %}
