@@ -37,7 +37,7 @@ title: Coaches Corner
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-12">
           <p class="text-muted left">{{ site.data.sitetext.coaches.conduct.skills.text }}</p>
           <ul class="left">
           {% for link in site.data.sitetext.coaches.conduct.skills.links %}  
