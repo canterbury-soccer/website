@@ -14,7 +14,7 @@ volunteer:
     img: assets/img/saurus_parent.jpg
     img_alt: Soccersaurus Parent
     text: "The Canterbury Soccer Club is run entirely by volunteers. To have a successful season, we need approximately 1 volunteer for every 5 children (about 60 volunteers).<br/><br/>The most needed position is for coaches and assistant coaches. You do not need to have experience to be a coach, as we provide training. You do need to have enthusiasm, a spirit of fair play and a sense of fun!"
-    final-appeal: "If you are just interested in volunteering, please send us an email to: <a href='canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>."
+    final-appeal: "If you are just interested in volunteering, please send us an email to: <a href='@@email'>@@email</a>."
     help:
       title: "We need your help!"
     internal:
@@ -153,7 +153,7 @@ parents:
   conduct:
     title: "Parent's Conduct"
     text: "At the CSC we like to play soccer and have fun! Because we work with children, we take their safety very seriously. Please take the time to read about the parents code of conduct below. These are pointers to make sure everyone has a good time!"
-    contact: "If you have any questions, please read below, or feel free to contact us at <a href='mailto:canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>."
+    contact: "If you have any questions, please read below, or feel free to contact us at <a href='mailto:@@email'>@@email</a>."
 
 schedule:
   title: "What's Happening?"
@@ -221,7 +221,7 @@ map:
 
 contact:
     title: "Contact Us"
-    text: "Email us at canterburysoccer@gmail.com"
+    text: "Email us at @@email"
     section: contact
     
 footer:

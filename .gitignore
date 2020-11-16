@@ -6,3 +6,5 @@ Gemfile.lock
 .DS_Store
 .tweet-cache
 *.swp
+node_modules
+package-lock.json

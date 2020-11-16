@@ -1,0 +1,27 @@
+{
+  "name": "canterbury-soccer",
+  "version": "1.0.0",
+  "description": "[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency) [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt) [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccooper/canterbury-soccer.git"
+  },
+  "author": "coopcoopbware@gmail.com",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ccooper/canterbury-soccer/issues"
+  },
+  "homepage": "https://github.com/ccooper/canterbury-soccer#readme",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-replace": "^1.0.1",
+    "grunt-text-replace": "^0.4.0"
+  }
+}
