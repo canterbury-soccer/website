@@ -58,7 +58,10 @@ title: Coaches Corner
     {% for video in site.data.sitetext.coaches.videos %}
       <div class="col-md-12">
         <h4 class="part-heading highlightshadow">{{ video.title | markdownify }}</h4>
-        {% if video.url %}<iframe width="560" height="315" src="{{ video.url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{% endif %}
+        {% if video.url %}
+        {% capture youtube_url %}{{ video.url }}{% endcapture %}
+        {% include youtube.html url=youtube_url %}
+        {% endif %}
         {% if video.desc %}<div class="text-muted">{{ video.desc | markdownify }}</div>{% endif %}
       </div>
     {% endfor %}
@@ -66,8 +69,8 @@ title: Coaches Corner
 
     <hr/> 
 
-    <div class="row justify-content-center">
-      <div class="col-6 text-center">
+    <div class="row">
+      <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.coaches.extra.title | default: "Colour me in!" }}</h2>
         <a href="{{ site.data.sitetext.kids.colour.url }}" target="_blank"><img src="{{ site.data.sitetext.kids.colour.img }}" alt="{{ site.data.sitetext.kids.colour.img_alt }}"/></a>
         {% if site.data.sitetext.coaches.extra.text %}
