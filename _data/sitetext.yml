@@ -36,7 +36,7 @@ aboutus:
     section: aboutus
     list:
       - title: "News"
-        desc: "Due to city sports fields being unavailable and for the health and safety of the families in our community, the Canterbury Soccer season has been cancelled for 2020. For those who have registered, full refunds will be processed by April 15.<br/> Registration for the 2021 year will begin Feb 1, 2021 and we will have twice as much fun in 2021!"
+        desc: "Due to the ongoing state of the COVID pandemic, and out of concern for the health and safety of the families in our community, the Canterbury Soccer season has been cancelled for 2021."
         icon: fas fa-newspaper #find more at https://fontawesome.com/icons
       - title: "Sponsors"
         desc: "[Watson’s Pharmacy](https://watsonspharma.com/) is proud to support Canterbury Soccer – a program enjoyed for many years by the Watson family children. Award-winning, family-owned Watson’s offers an integrative, holistic approach to your health, combining the best of traditional medicines and complementary therapies. Watson’s can even formulate customized medicines to meet your specific needs in its in-store compounding labs. For quality dispensary services, organic products, nutritional supplements, and health advice, visit one of Watson’s two locations: [192 Main St.](https://goo.gl/maps/LgUQxQpwyXy), and [1308 Wellington St. West.](https://goo.gl/maps/jDMK3t212nq)"
