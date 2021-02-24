@@ -24,7 +24,7 @@ $ git clone git@github.com:canterbury-soccer/website.git
 $ cd website
 $ bundle install
 ```
-The jekyll-agency theme that forms the basis of the site relies on a specific version of jekyll, so you need to specify a version when calling `build` or `serve`.
+The [jekyll-agency theme](http://jekyllthemes.org/themes/agency/) that forms the basis of the site relies on a specific version of jekyll, so you need to specify a version when calling `build` or `serve`.
 ```
 jekyll _4.1.1_ serve
 ```
