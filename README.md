@@ -1,14 +1,30 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+This is the source code behind the website for the  Canterbury Soccer Club, based in Ottawa, Ontario, Canada.
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the [![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+https://canterbury-soccer.com/
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo.
+The website changes infrequently at best, and in an effort to reduce costs for our volunteer-run, community-based effort, we decided in November 2020 to move the source and hosting to Github.
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+# How to update the website
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+## If you just want to update the site content...
+You can submit a PR for content and/or updated images.
+
+Most of the site text lives in a single file, [_data/sitetext.yml](https://github.com/canterbury-soccer/website/blob/main/_data/sitetext.yml). Let's try to keep it that way.
+
+Images and other assets live under the [assets](https://github.com/canterbury-soccer/website/tree/main/assets) directory.
+
+## If you want to change the site's structure...
+
+The site is [jekyll](https://jekyllrb.com/)-based, so start by following the [instructions for installing ruby and jekyll for your OS](https://jekyllrb.com/docs/installation/).
+
+Once jekyll is installed, you'll need to clone the source code and install the bundled resources:
+
+```
+$ git clone git@github.com:canterbury-soccer/website.git
+$ cd website
+$ bundle install
+```
+The jekyll-agency theme that forms the basis of the site relies on a specific version of jekyll, so you need to specify a version when calling `build` or `serve`.
+```
+jekyll _4.1.1_ serve
+```
