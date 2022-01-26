@@ -1,5 +1,5 @@
 registration:
-    open: false
+    open: true
     closed:
       title: "Registration is closed"
     internal:
@@ -37,11 +37,7 @@ aboutus:
     list:
       - title: "News"
         desc: |
-          Due to the unpredictable nature of COVID-19 restrictions, we have reluctantly decided to cancel our 2021 season.
-          <br/><br/>
-          To make sure 2022 can happen, when things settle down in the world, please consider volunteering for our organizing committee.
-          <br/><br/>
-          We need all positions. Volunteers will need a [Police Record Check (PRC)](https://www.ottawapolice.ca/en/contact-us/Police-Record-Checks.aspx) and a [Vulnerable Sector Check](https://www.ottawapolice.ca/en/about-us/level-3---vulnerable-sector-check.aspx), be willing to take (or have previously taken) the [Respect in Sport](https://www.ontariosoccer.net/respect-in-sport) program, and have considerable time available between January and June.
+          To make sure 2022 can happen, when things settle down in the world, please consider volunteering for our organizing committee. We need all positions. The only real requirement is that you have considerable time available between January and June.
           <br/><br/>
           <a href='mailto:canterburysoccer@gmail.com'>Email us if that is you!</a>
         icon: fas fa-newspaper #find more at https://fontawesome.com/icons
@@ -63,11 +59,11 @@ join-us:
   img: assets/img/saurus_header.jpg
   img_alt: Soccersaurus Heads the Ball
   registration_slug: |
-    Registration opens February 1, 2019 and closes March 15, 2019.
+    Registration runs from February 1 to March 15, 2022.
     <br/>
     No late registrations.
     <br/>
-    Fee: $60 per child until February 29, $75.00 after February 29
+    Fee: $80 per child
   text: |
     We are looking forward to a great year!
     <br/><br/>
@@ -171,8 +167,8 @@ schedule:
     title: "Game Times"
     text: "Canterbury Soccer Club meets every week for training and games! Here are the times:"
   schedules:
-    title: "2019 Schedules"
-    year: 2019
+    title: "2022 Schedules"
+    year: 2022
     text: ""
   fieldmaps:
     title: "Field Maps"
@@ -191,25 +187,25 @@ divisions:
   - title: "Minitykes"
     schedule: "Mondays and Wednesdays, 5:30-6:30 pm"
     tagline: "They may be small but they sure are fast!"
-    years: "born 2014-2015"
+    years: "born 2016-2017"
     url: assets/pdf/schedule_2019_minitykes.pdf
     img: assets/img/saurus_minitykes.png
   - title: "Tykes"
     schedule: "Mondays and Wednesdays, 6:30-7:30 pm"
     tagline: "Built strong and built tough!"
-    years: "born 2012-2013"
+    years: "born 2014-2015"
     url: assets/pdf/schedule_2019_tykes.pdf
     img: assets/img/saurus_tykes.png
   - title: "Atoms"
     schedule: "Mondays and Wednesdays, 7:30-8:30 pm"
     tagline: "A little quirky and the life of the game!"
-    years: "born 2010-2011"
+    years: "born 2012-2013"
     url: assets/pdf/schedule_2019_atoms.pdf
     img: assets/img/saurus_atoms.png
   - title: "Mosquitos"
     schedule: "Tuesdays and Thursdays, 6:30-8:15 pm"
     tagline: "Bigger, stronger, and ready to play!"
-    years: "born 2007-2009"
+    years: "born 2009-2011"
     url: assets/pdf/schedule_2019_mosquitos.pdf
     img: assets/img/saurus_mosquitos.png
 
