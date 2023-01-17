@@ -59,7 +59,7 @@ join-us:
   img: assets/img/saurus_header.jpg
   img_alt: Soccersaurus Heads the Ball
   registration_slug: |
-    Registration runs from February 1 to March 15, 2022.
+    Registration runs from February 1 to March 15, 2023.
     <br/>
     No late registrations.
     <br/>
@@ -165,10 +165,10 @@ schedule:
   text: "There’s always a lot happening in the Canterbury Soccer Club. Stay up to date by following us on Twitter, or check back regularly for our event updates below!"
   gametimes:
     title: "Game Times"
-    text: "Canterbury Soccer Club meets every week for training and games! Here are the times:"
+    text: "Canterbury Soccer Club meets every week for training and games! The 2023 schedule has a new schedule for Atoms. Here are the times:"
   schedules:
-    title: "2022 Schedules"
-    year: 2022
+    title: "2023 Schedules"
+    year: 2023
     text: ""
   fieldmaps:
     title: "Field Maps"
@@ -187,25 +187,25 @@ divisions:
   - title: "Minitykes"
     schedule: "Mondays and Wednesdays, 5:30-6:30 pm"
     tagline: "They may be small but they sure are fast!"
-    years: "born 2016-2017"
+    years: "born 2017-2018"
     url: assets/pdf/schedule_2022_minitykes.pdf
     img: assets/img/saurus_minitykes.png
   - title: "Tykes"
     schedule: "Mondays and Wednesdays, 6:30-7:30 pm"
     tagline: "Built strong and built tough!"
-    years: "born 2014-2015"
+    years: "born 2015-2016"
     url: assets/pdf/schedule_2022_tykes.pdf
     img: assets/img/saurus_tykes.png
   - title: "Atoms"
-    schedule: "Mondays and Wednesdays, 7:30-8:30 pm"
+    schedule: "Tuesdays and Thursdays, 5:30-6:30 pm - NOTE new day and time for 2023!"
     tagline: "A little quirky and the life of the game!"
-    years: "born 2012-2013"
+    years: "born 2013-2014"
     url: assets/pdf/schedule_2022_atoms.pdf
     img: assets/img/saurus_atoms.png
   - title: "Mosquitos"
     schedule: "Tuesdays and Thursdays, 6:30-8:15 pm"
     tagline: "Bigger, stronger, and ready to play!"
-    years: "born 2009-2011"
+    years: "born 2010-2012"
     url: assets/pdf/schedule_2022_mosquitos.pdf
     img: assets/img/saurus_mosquitos.png
 
