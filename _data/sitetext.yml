@@ -218,7 +218,7 @@ map:
 
 contact:
     title: "Contact Us"
-    text: "Email us at canterburysoccer@gmail.com"
+    text: "Email us at <a href='mailto:canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>"
     section: contact
     
 footer:
