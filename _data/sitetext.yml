@@ -48,12 +48,6 @@ aboutus:
         desc: "Our soccer season is in the Spring and normally runs from Mid-May to the end of June in a given year. Two games are scheduled for each team in the evenings from Monday to Thursday every week of the season. The games are played in our community on fields located at [St. Gemma (McMaster) school](https://www.google.ca/maps/place/McMaster+Catholic+School/@45.386711,-75.646857,17z/data=!4m2!3m1!1s0x4cce0f4f82d288ad:0x2d602d5eef7102da)."
         icon: fas fa-calendar-alt
 
-twitter:
-    title: "Twitter"
-    text: "Stay up to date on events, news, weather and games by following us on Twitter!"
-    url: https://twitter.com/CanterburySoccr
-    section: twitter
-
 join-us:
   title: "Join Us"
   img: assets/img/saurus_header.jpg
@@ -162,7 +156,7 @@ schedule:
   title: "What's Happening?"
   img: assets/img/saurus_question.jpg
   img_alt: Soccersaurus has questions.
-  text: "There’s always a lot happening in the Canterbury Soccer Club. Stay up to date by following us on Twitter, or check back regularly for our event updates below!"
+  text: "There’s always a lot happening in the Canterbury Soccer Club. Check back regularly for our event updates below!"
   gametimes:
     title: "Game Times"
     text: "Canterbury Soccer Club meets every week for training and games! The 2023 schedule has a new schedule for Atoms. Here are the times:"
@@ -203,7 +197,7 @@ divisions:
     url: assets/pdf/schedule_2022_atoms.pdf
     img: assets/img/saurus_atoms.png
   - title: "Mosquitos"
-    schedule: "Tuesdays and Thursdays, 6:30-8:15 pm"
+    schedule: "Tuesdays and Thursdays, 6:30-8:00 pm - earlier end time for 2023"
     tagline: "Bigger, stronger, and ready to play!"
     years: "born 2010-2012"
     url: assets/pdf/schedule_2022_mosquitos.pdf
@@ -230,8 +224,6 @@ contact:
 footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com/https://twitter.com/Canterburysoccr/
-        icon: "fab fa-twitter"  
       - url: https://facebook.com/CanterburySoccerClub
         icon: "fab fa-facebook-f"
 
