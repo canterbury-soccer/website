@@ -9,19 +9,21 @@ title: Volunteer
         {% include page_title.html title=title %}
 
         <div class="row justify-content-center">
-        <div class="col-2">
-            <figure>
-                <img src="{{ site.data.sitetext.volunteer .img }}" alt="{{ site.data.sitetext.volunteer.img_alt }}"/>
-            </figure>
+            <div class="col-2">
+                <figure>
+                    <img src="{{ site.data.sitetext.volunteer .img }}" alt="{{ site.data.sitetext.volunteer.img_alt }}"/>
+                </figure>
+            </div>
+            <div class="col-10">
+                {% if site.data.sitetext.volunteer.text %}
+                <h3 class="section-subheading text-muted">{{ site.data.sitetext.volunteer.text }}</h3>
+                {% endif %}
+            </div>
         </div>
-        <div class="col-10">
-            {% if site.data.sitetext.volunteer.text %}
-            <h3 class="section-subheading text-muted">{{ site.data.sitetext.volunteer.text }}</h3>
-            {% endif %}
-            <div class="row justify-content-center">
-                <div class="text-center">
-                    {{ site.data.sitetext.volunteer.final-appeal }}
-                </div>
+
+        <div class="row justify-content-center">
+            <div class="text-center bold">
+                {{ site.data.sitetext.volunteer.final-appeal }}
             </div>
         </div>
 
@@ -39,8 +41,10 @@ title: Volunteer
             </div>
         </div>
 
+        <hr/>
+
         <div class="row justify-content-center">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center bold">
             {{ site.data.sitetext.volunteer.final-appeal }}
             </div>
         </div>
