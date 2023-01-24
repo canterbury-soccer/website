@@ -14,7 +14,7 @@ volunteer:
     img: assets/img/saurus_parent.jpg
     img_alt: Soccersaurus Parent
     text: "The Canterbury Soccer Club is run entirely by volunteers. To have a successful season, we need approximately 1 volunteer for every 5 children (about 60 volunteers).<br/><br/>The most needed position is for coaches and assistant coaches. You do not need to have experience to be a coach, as we provide training. You do need to have enthusiasm, a spirit of fair play and a sense of fun!"
-    final-appeal: "If you are interested in volunteering, please send us an email to: <a href='canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>."
+    final-appeal: "If you are interested in volunteering, please send us an email to: <a href='mailto:canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>."
     help:
       title: "We need your help!"
     internal:
