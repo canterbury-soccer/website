@@ -39,7 +39,7 @@ aboutus:
         desc: |
           To make sure the 2023 season can happen, please consider volunteering for our organizing committee. We need all positions. The only real requirements are that you have a love of amateur sport, a desire to see kids have fun, and some time available between January and June.
           <br/><br/>
-          <a href='mailto:canterburysoccer@gmail.com'>Email us if that is you!</a>
+          <a href='mailto:info@canterbury-soccer.com'>Email us if that is you!</a>
         icon: fas fa-newspaper #find more at https://fontawesome.com/icons
       - title: "Sponsors"
         desc: "[Watson’s Pharmacy](https://watsonspharma.com/) is proud to support Canterbury Soccer – a program enjoyed for many years by the Watson family children. Award-winning, family-owned Watson’s offers an integrative, holistic approach to your health, combining the best of traditional medicines and complementary therapies. Watson’s can even formulate customized medicines to meet your specific needs in its in-store compounding labs. For quality dispensary services, organic products, nutritional supplements, and health advice, visit one of Watson’s two locations: [192 Main St.](https://goo.gl/maps/LgUQxQpwyXy), and [1308 Wellington St. West.](https://goo.gl/maps/jDMK3t212nq)"
@@ -218,7 +218,7 @@ map:
 
 contact:
     title: "Contact Us"
-    text: "Email us at <a href='mailto:canterburysoccer@gmail.com'>canterburysoccer@gmail.com</a>"
+    text: "Email us at <a href='mailto:info@canterbury-soccer.com'>info@canterbury-soccer.com</a>"
     section: contact
     
 footer:
