@@ -22,7 +22,7 @@ formspree_form_path: f/mgepzyyk
 description: "The Canterbury Soccer Club has been operating in Ottawa, Canada for 41 years to provide non-competitive recreational soccer to youth between the ages of 5 and 12 years old in the Canterbury and Alta Vista community of Ottawa. The club's goal is to ensure that our youth HAVE FUN while all getting an equal opportunity to play the game."
 author     : Chris Cooper
 logo:     #optional, defaults to site title
-  path: assets/img/logo.png
+  path: /assets/img/logo.png
   height: 128 #height in px, defaults to 52px
 
 analytics:
