@@ -182,25 +182,25 @@ divisions:
     schedule: "Mondays and Wednesdays, 5:30-6:30 pm"
     tagline: "They may be small but they sure are fast!"
     years: "born 2017-2018"
-    url: assets/pdf/schedule_2022_minitykes.pdf
+    url: assets/pdf/schedule_2023_minitykes.pdf
     img: assets/img/saurus_minitykes.png
   - title: "Tykes"
     schedule: "Mondays and Wednesdays, 6:30-7:30 pm"
     tagline: "Built strong and built tough!"
     years: "born 2015-2016"
-    url: assets/pdf/schedule_2022_tykes.pdf
+    url: assets/pdf/schedule_2023_tykes.pdf
     img: assets/img/saurus_tykes.png
   - title: "Atoms"
     schedule: "Tuesdays and Thursdays, 5:30-6:30 pm - NOTE new day and time for 2023 (links to schedules still reflect last year!"
     tagline: "A little quirky and the life of the game!"
     years: "born 2013-2014"
-    url: assets/pdf/schedule_2022_atoms.pdf
+    url: assets/pdf/schedule_2023_atoms.pdf
     img: assets/img/saurus_atoms.png
   - title: "Mosquitos"
     schedule: "Tuesdays and Thursdays, 6:30-8:00 pm - earlier end time for 2023"
     tagline: "Bigger, stronger, and ready to play!"
     years: "born 2010-2012"
-    url: assets/pdf/schedule_2022_mosquitos.pdf
+    url: assets/pdf/schedule_2023_mosquitos.pdf
     img: assets/img/saurus_mosquitos.png
 
 map:
