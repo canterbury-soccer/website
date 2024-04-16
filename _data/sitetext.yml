@@ -53,7 +53,7 @@ join-us:
   img: assets/img/saurus_header.jpg
   img_alt: Soccersaurus Heads the Ball
   registration_slug: |
-    Registration runs from February 1 to March 15, 2023.
+    Registration runs from February 1 to April 15, 2024.
     <br/>
     No late registrations.
     <br/>
@@ -181,25 +181,25 @@ divisions:
   - title: "Minitykes"
     schedule: "Mondays and Wednesdays, 5:30-6:30 pm"
     tagline: "They may be small but they sure are fast!"
-    years: "born 2017-2018"
+    years: "Grades JK-SK"
     url: assets/pdf/schedule_2023_minitykes.pdf
     img: assets/img/saurus_minitykes.png
   - title: "Tykes"
     schedule: "Mondays and Wednesdays, 6:30-7:30 pm"
     tagline: "Built strong and built tough!"
-    years: "born 2015-2016"
+    years: "Grades 1-2"
     url: assets/pdf/schedule_2023_tykes.pdf
     img: assets/img/saurus_tykes.png
   - title: "Atoms"
     schedule: "Tuesdays and Thursdays, 5:30-6:30 pm - NOTE new day and time for 2023"
     tagline: "A little quirky and the life of the game!"
-    years: "born 2013-2014"
+    years: "Grades 3-4"
     url: assets/pdf/schedule_2023_atoms.pdf
     img: assets/img/saurus_atoms.png
   - title: "Mosquitos"
     schedule: "Tuesdays and Thursdays, 6:30-8:00 pm - earlier end time for 2023"
     tagline: "Bigger, stronger, and ready to play!"
-    years: "born 2010-2012"
+    years: "Gardes 5-7"
     url: assets/pdf/schedule_2023_mosquitos.pdf
     img: assets/img/saurus_mosquitos.png
 
